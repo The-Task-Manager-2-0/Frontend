@@ -2,7 +2,7 @@ module.exports = {
     colors:{
         col1:"white",
         col4:"black",
-        col3:"rgb(211, 209, 209)",        
+        col3:"rgb(211, 209, 209)", //grey 
         col4: "rgb(7, 119, 163)",
     },
 }
