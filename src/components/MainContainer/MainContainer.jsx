@@ -6,7 +6,7 @@ export const MainContainer = () => {
     return (
         <div className='flex h-full'>
             <Sidebar/>
-            <div className='flex-0.7'>
+            <div className='flex flex-0.7'>
                 <Outlet />
             </div>
         </div>
