@@ -1,8 +1,6 @@
 import React from 'react'
-import SearchIcon from '@mui/icons-material/Search';
-import { colors } from '../../global/style';
 
-export const TaskScreenHead = () => {
+export default function HomeNavigation() {
   return (
     <div className='flex flex-col w-full p-2'>
       {/* Search Bar and Assign Task button */}
@@ -13,9 +11,9 @@ export const TaskScreenHead = () => {
           <SearchIcon className='absolute right-2 ' />
         </div>
       </div>
-      {/* Employee Task and filters */}
+      {/* icons */}
       <div>
-
+        
       </div>
     </div>
   )
