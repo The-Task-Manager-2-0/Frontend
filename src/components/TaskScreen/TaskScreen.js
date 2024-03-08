@@ -7,7 +7,7 @@ import { TaskScreenHead } from './TaskScreenHead';
 
 export const TaskScreen = () => {
     return (
-        <div className='h-full w-full flex flex-col justify-between items-center'>
+        <div className='h-full w-full flex flex-col justify-between items-center p-6'>
             {/* Navigation */}
             <TaskScreenHead/>
         <div className='border-t-2 pt-px h-full w-full flex flex-row justify-between items-center bg-white p-4 gap-12'>
